@@ -283,7 +283,7 @@ class FeedbackAgent:
 if __name__ == "__main__":
     customer_data_file = "customer_data.csv"
     conversation_log_file = "conversation_log.csv"
-    openai_api_key = "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"  # Replace with your actual OpenAI API key
+    openai_api_key = "dummy_api"  # Replace with your actual OpenAI API key
 
     agent = FeedbackAgent(customer_data_file, conversation_log_file, openai_api_key)
     agent.speak("Please enter the customer ID to connect with.")
